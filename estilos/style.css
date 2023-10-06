@@ -86,12 +86,12 @@ form div.campo .material-icons{
 form div.campo input{
     width: calc(100% - 45px);
     font-size: 1em;
-    transform: translateY(-9px);
     height: 100%;
     padding: 19px;
     border: none;
     border-radius: 7px;
     background-color: #e6e2ee;
+    transform: translateY(-9px);
 }
 
 form input[type=submit]{
@@ -107,9 +107,9 @@ form input[type=submit]{
 
 form input[type=submit]:hover{
     background-color: #3d1886;
+    cursor: pointer;
     transition-duration: 0.3s;
     transition-timing-function: ease;
-    cursor: pointer;
 }
 
 form input[type=submit]:active{
