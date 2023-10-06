@@ -7,6 +7,7 @@
 
     section#login{
         width: 90vw;
+        height: 310px;
     }
 
     section#login > div#imagem{
@@ -21,24 +22,25 @@
         float: right;
         width: 60%;
     }
-
-    div#formulario h1{
-        font-size: 2em;
-    }
     
     div#formulario p{
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 5px;
+    }
+
+    div#formulario form{
+        padding-top: 20px;
     }
 }
 
 @media screen and (min-width: 992px){
-
     html,body{
         background-image: linear-gradient(to right top, #482b80, #1c244e);
     }
 
     section#login{
         width: 990px;
+        height: 350px;
     }
 
     section#login > div#imagem{
@@ -59,6 +61,11 @@
     }
     
     div#formulario p{
-        font-size: 1.3em;
+        font-size: 1em;
+        margin: 10px;
+    }
+
+    div#formulario form{
+        padding-top: 20px;
     }
 }
