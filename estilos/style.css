@@ -10,7 +10,7 @@
 html,body{
     width: 100vw;
     height: 100vh;
-    background-image: linear-gradient(to right top, #15C3EF, #0C6D99);
+    background-color: #1c244e;
 }
 
 main{
@@ -31,10 +31,19 @@ section#login{
     margin: auto;
     overflow: hidden;
     box-shadow: 0px 0px 10px #0000007e;
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
 }
 
 div#imagem{
+    display: block;
     height: 200px;
     background: #000 url(../imagens/sean-whang.jpg) no-repeat center right;
     background-size: cover;
 }
+
+div#formulario{
+    display: block;
+    padding: 10px;
+}
+
