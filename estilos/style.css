@@ -56,3 +56,52 @@ div#formulario p{
     font-size: 0.8em;
     margin-bottom: 3px;
 }
+
+form input[type=submit]{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: #563c8a;
+    color: #E0EFF2;
+    font-weight: bold;
+}
+
+form input[type=submit]:hover{
+    background-color: #3d1886;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+}
+
+form input[type=submit]:active{
+    transform: scale(98%);
+}
+
+form a{
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    background-color: #E0EFF2;
+    border: 1px solid #563c8a;
+    border-radius: 8px;
+    margin: 5px 0px;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+form a:hover{
+    background-color: #3d1886;
+    color: #E0EFF2;
+}
+
+form a span.material-icons{
+    font-size: 0.8em;
+    
+}
+
+form a span.material-icons:hover{
+    color: #E0EFF2;
+}
